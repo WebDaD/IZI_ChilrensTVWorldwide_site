@@ -1,5 +1,5 @@
 {
-  "name": "Site-WebDaD",
+  "name": "Site-Childrens_tv_worldwide",
   "description": "A simple one-pager",
   "main": "index.pug",
   "keywords": [
@@ -20,6 +20,7 @@
     "bootstrap": "^3.3.7",
     "jquery.lazyload":"*",
     "jquery":"*",
-    "font-awesome":"*"
+    "font-awesome":"*",
+    "flag-icon-css":"*"
   }
 }

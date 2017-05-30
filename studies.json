@@ -1,7 +1,9 @@
 {
-	"study1": [
-		{"flag":"de", "file":"CTV_WW_10_Germany_IZI_PJ_2008.pdf", "name":"Study in Germany"},
+	"genderrepresentation": [
+		{"flag":"ar", "file":"CTV_WW_01_Argentina_IZI_PJ_2008.pdf", "name":"Study in Argentina"},
+		{"flag":"de", "file":"CTV_WW_10_Germany_IZI_PJ_2008.pdf", "name":"Study in Germany"}
 	],
-	"study2": [
+	"haveandshowemotions": [
+		{"flag":"af", "file":"Research Report_Have and Show Emotions_Afghanistan.pdf", "name":"Study in Afghanistan"}
 	]
 }

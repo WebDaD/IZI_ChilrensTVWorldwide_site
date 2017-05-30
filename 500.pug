@@ -26,18 +26,9 @@ html(lang='en')
     link(rel="shortcut icon", href="/images/favicon.ico")
     meta(name="msapplication-config", content="/images/browserconfig.xml")
     meta(name="theme-color", content="#6da2e5")
-    link(rel='stylesheet', href='/css/main.css')
+    link(rel='stylesheet', href='css/main.css')
     title Childrens TV Worldwide
   body
-    .share-buttons
-      a.facebook(href="https://www.facebook.com/sharer/sharer.php?u=http%3A//childrenstvworldwide.com" target="_blank")
-        i.fa.fa-facebook(aria-hidden="true")
-      a.twitter(href="https://twitter.com/home?status=http%3A//childrenstvworldwide.com" target="_blank")
-        i.fa.fa-twitter(aria-hidden="true")
-      a.google-plus(href="https://plus.google.com/share?url=http%3A//childrenstvworldwide.com" target="_blank")
-        i.fa.fa-google-plus(aria-hidden="true")
-      a.whatsapp.visible-xs-block(href="whatsapp://send?text=http%3A//childrenstvworldwide.com" data-action="share/whatsapp/share")
-        i.fa.fa-whatsapp(aria-hidden="true")
     nav.navbar.navbar-default.navbar-fixed-top
       .container
         .navbar-header
@@ -50,26 +41,19 @@ html(lang='en')
         .collapse.navbar-collapse#bs-example-navbar-collapse-1
           ul.nav.navbar-nav
             li
-              a(href="#about_this") About this Page
+              a(href="/about_this.html") About this Page
             li
-              a(href="#haveandshowemotions") Have and Show Emotions (2014)
+              a(href="/haveandshowemotions.html") Have and Show Emotions (2014)
             li
-              a(href="#genderrepresentation") Gender Representation (2007)
+              a(href="/genderrepresentation.html") Gender Representation (2007)
     .custom-header
       .row
         .col-md-4
-          img.header-logo(src='/images/logo_header.png')
+          img(src='/images/logo_header.png')
         .col-md-8.header-title Promoting Excellence in children's TV  
     .container
-      h1#about_this About This Page
-      include assets/chapters/about_this.pug
-      hr
-      h1#haveandshowemotions Have and Show Emotions (2014)
-      include assets/chapters/haveandshowemotions.pug
-      hr
-      h1#genderrepresentation Gender Representation (2007)
-      p Some Introduction Text
-      include assets/chapters/genderrepresentation.pug
+      h1#error 500
+      p We are sorry, some internal error occured to us...
       footer.footer
         .container
           .pull-left
@@ -78,5 +62,5 @@ html(lang='en')
             a.btn.btn-link(style='color:white;' href="./impressum.html" target="_blank") Impressum
             a.btn.btn-link(style='color:white;' href="./datenschutz.html" target="_blank") Datenschutzerklärung
               
-    script(src="/js/main.js")
+    script(src="js/main.js")
     script(src='https://www.google.com/recaptcha/api.js')

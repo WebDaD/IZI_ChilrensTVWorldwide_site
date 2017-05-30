@@ -1,0 +1,13 @@
+p 5,190 children and preteens from 17 countries were surveyed with the aim of getting a better understanding of how emotions are experienced and shown in everyday life and while watching TV. The research interest was on the emotions joy, fear, anger, sadness, pride and envy.
+p Find a summary of the results in a research report, as well as reports on the individual countries that have participated in this study.
+p
+	a(href="/pdfs/Research Report_SUMMARY_Have and Show_Emotions_Worldwide.pdf" target="_blank")
+		i.fa.fa-file-pdf-o(aria-hidden="true")
+		span PDF - Research Report
+.row
+	each study in haveandshowemotions
+		.col-lg-2.col-md-3.col-sm-4.col-xs-12.study
+			a(href="/pdfs/"+study.file target="_blank")
+				span.flag-icon(class="flag-icon-"+study.flag)
+				i.fa.fa-file-pdf-o(aria-hidden="true")
+				span= study.name

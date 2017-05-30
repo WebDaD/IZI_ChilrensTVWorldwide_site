@@ -1,22 +1,34 @@
 @import "palette.less";
 @import "navbar.less";
-@import "cards.less";
-@import "ghost-button.less";
 
 /* Study boxes */
 .study {
-
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid @primaryColor;
+  padding:5px;
+  background-color: white;
+  color: @primaryColor;
 }
-
+.study:hover {
+  background-color: @primaryColor;
+  color: white;
+  text-decoration: none;
+}
 /* Header */
 .custom-header {
 background-color:#354c92;
 color:white;
+height:200px;
 }
 
-  .row {
-      position: relative;
-  }
+.custom-header .row {
+    position: relative;
+}
+.header-logo {
+  width:100px;
+  height:auto;
+}
 @media (min-width: 992px) {
   .header-title {
     position: absolute;
@@ -56,15 +68,15 @@ p, figcaption, .click-to-tweet-text, td {
 }
 /* Buttons */
 .btn-primary {
-  background-color: @primary;
-  border-color: @primary;
+  background-color: @primaryColor;
+  border-color: @primaryColor;
 }
 /* color to inlines */
 em {
-  color: @secondary;
+  color: @accentColor;
 }
 strong {
-  color: @primary;
+  color: @primaryColor;
 }
 /* Jumbo bg */
 #top {
