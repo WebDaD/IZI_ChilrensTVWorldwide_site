@@ -1,0 +1,6 @@
+.row
+	each study in study2
+		.col-lg-2.col-md-3.col-sm-4.col-xs-12.study
+			a(href="/pdfs/"+study.file target="_blank")
+				span.flag-icon(class="flag-icon-"+study.flag)
+				span= study.name
