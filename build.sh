@@ -2,7 +2,7 @@
 echo "Creating Public Folders"
 mkdir -p public
 mkdir -p public/images
-mkdir -p public/pdf
+mkdir -p public/pdfs
 mkdir -p public/flags
 mkdir -p public/fonts
 mkdir -p public/css
@@ -26,7 +26,7 @@ cp -a bower_components/font-awesome/fonts/. public/fonts/
 uglifycss tmp/*.css > public/css/main.css
 
 echo "Combine, Minify and Copy JS"
-uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/dist/js/bootstrap.min.js bower_components/jquery.lazyload/jquery.lazyload.js analytics.js main.js --mangle --compress --output=public/js/main.js
+uglifyjs bower_components/jquery/dist/jquery.min.js bower_components/bootstrap/dist/js/bootstrap.min.js assets/js/analytics.js assets/js/main.js --mangle --compress --output=public/js/main.js
 
 echo "Copy Images"
 cp -a assets/images/. public/images/
@@ -53,6 +53,13 @@ cp autorun.inf public/autorun.inf
 
 echo "Copy AppCache.manifest"
 cp manifest.appcache public/manifest.appcache
+
+echo "Copy Sitemap"
+cp sitemap.xml public/sitemap.xml
+
+echo "Copy robots.txt"
+cp robots.txt public/robots.txt
+
 
 rm -rf tmp
 echo "Done. Now Copy all in public to your webspace"

@@ -1,16 +1,16 @@
 p In the largest ever children’s TV analysis, we tracked gender representation in 19,664 programmes with 26,342 fictional characters from 24 countries. This webpage offers the individual reports of each country as well as a summary of the overall results. The analyses give an overview on the quantitative tendencies in each country. Of course, the results are dependent upon the sample and thus reflect only what was broadcast in May 2007.
 p
-	a(href="/pdfs/Televizion Article Gender Represenation_2008.pdf" target="_blank")
-		i.fa.fa-file-pdf-o(aria-hidden="true")
-		span PDF – TELEVIZION Article
+  a.btn.btn-default.btn-lg(href="/pdfs/Televizion Article Gender Represenation_2008.pdf" target="_blank" title="Open PDF")
+    i.fa.fa-file-pdf-o(aria-hidden="true")
+    span  TELEVIZION Article
 p
-	a(href="/pdfs/CTV_WW_00_Gender Representation_total_IZI_PG_2008.pdf" target="_blank")
-		i.fa.fa-file-pdf-o(aria-hidden="true")
-		span PDF – Report on all countries
+  a.btn.btn-default.btn-lg(href="/pdfs/CTV_WW_00_Gender Representation_total_IZI_PG_2008.pdf" target="_blank" title="Open PDF")
+    i.fa.fa-file-pdf-o(aria-hidden="true")
+    span  Report on all countries
+h2 Studies in countries
 .row
-	each study in genderrepresentation
-		.col-lg-2.col-md-3.col-sm-4.col-xs-12.study
-			a(href="/pdfs/"+study.file target="_blank")
-				span.flag-icon(class="flag-icon-"+study.flag)
-				i.fa.fa-file-pdf-o(aria-hidden="true")
-				span= study.name
+  each study in genderrepresentation
+    .col-lg-2.col-md-3.col-sm-4.col-xs-12
+      a.btn.btn-default.btn-lg.btn-block(href="/pdfs/"+study.file target="_blank" title="Open PDF")
+        span.flag-icon(class="flag-icon-"+study.flag)
+        span= " "+study.name

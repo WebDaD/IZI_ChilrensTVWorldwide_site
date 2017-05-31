@@ -1,0 +1,3 @@
+Sitemap: http://childrenstvworldwide.com/sitemap.xml
+User-agent: *
+Disallow:

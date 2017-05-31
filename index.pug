@@ -18,6 +18,16 @@ html(lang='en')
     meta(name='DC.Rights', content='Dr. Maya Götz')
     meta(name='DC.Description', content='Promoting Excellence in childrens TV by PRIX JEUNESSE')
     meta(name='DC.Language', content='en')
+    meta(property='og:type', content='website')
+    meta(property='og:title', content='Childrens TV Worldwide')
+    meta(property='og:description', content='With this website, the PRIX JEUNESSE Foundation wants to provide an overview on scientific studies conducted with/through its partner institute, the IZI.')
+    meta(property='og:url', content='http://childrenstvworldwide.com')
+    meta(property='og:image', content='http://childrenstvworldwide.com/images/apple-touch-icon.png')
+    meta(name='twitter:card', content='summary_large_image')
+    meta(name='twitter:site', content='http://childrenstvworldwide.com')
+    meta(name='twitter:title', content='Childrens TV Worldwide')
+    meta(name='twitter:description', content='With this website, the PRIX JEUNESSE Foundation wants to provide an overview on scientific studies conducted with/through its partner institute, the IZI.')
+    meta(name='twitter:image', content='http://childrenstvworldwide.com/images/apple-touch-icon.png')
     link(rel="apple-touch-icon", sizes="180x180", href="/images/apple-touch-icon.png")
     link(rel="icon", type="image/png", sizes="32x32", href="/images/favicon-32x32.png")
     link(rel="icon", type="image/png", sizes="16x16", href="/images/favicon-16x16.png")
@@ -29,15 +39,22 @@ html(lang='en')
     link(rel='stylesheet', href='/css/main.css')
     title Childrens TV Worldwide
   body
+    a#up.btn.btn-default.btn-lg(href="#top" title="Back to Top")
+      i.fa.fa-arrow-up(aria-hidden="true")
+      span.sr-only Back to the Top
     .share-buttons
       a.facebook(href="https://www.facebook.com/sharer/sharer.php?u=http%3A//childrenstvworldwide.com" target="_blank")
         i.fa.fa-facebook(aria-hidden="true")
+        span.sr-only Share on Facebook
       a.twitter(href="https://twitter.com/home?status=http%3A//childrenstvworldwide.com" target="_blank")
         i.fa.fa-twitter(aria-hidden="true")
+        span.sr-only Share on Twitter
       a.google-plus(href="https://plus.google.com/share?url=http%3A//childrenstvworldwide.com" target="_blank")
         i.fa.fa-google-plus(aria-hidden="true")
+        span.sr-only Share on Google+
       a.whatsapp.visible-xs-block(href="whatsapp://send?text=http%3A//childrenstvworldwide.com" data-action="share/whatsapp/share")
         i.fa.fa-whatsapp(aria-hidden="true")
+        span.sr-only Share with WhatsApp
     nav.navbar.navbar-default.navbar-fixed-top
       .container
         .navbar-header
@@ -46,7 +63,7 @@ html(lang='en')
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href='#top') Children's TV Worldwide
+          a.navbar-brand(href='#top') Childrens TV Worldwide
         .collapse.navbar-collapse#bs-example-navbar-collapse-1
           ul.nav.navbar-nav
             li
@@ -55,11 +72,13 @@ html(lang='en')
               a(href="#haveandshowemotions") Have and Show Emotions (2014)
             li
               a(href="#genderrepresentation") Gender Representation (2007)
-    .custom-header
-      .row
-        .col-md-4
-          img.header-logo(src='/images/logo_header.png')
-        .col-md-8.header-title Promoting Excellence in children's TV  
+    #top
+      .container
+        .row
+          .col-sm-4
+            img.img-responsive(src='/images/logo_header.png' alt="Logo for the PRIX JEUNESSE INTERNATIONAL MUNICH")
+          .col-sm-8
+            .header-title Promoting Excellence in children's TV  
     .container
       h1#about_this About This Page
       include assets/chapters/about_this.pug
@@ -68,13 +87,11 @@ html(lang='en')
       include assets/chapters/haveandshowemotions.pug
       hr
       h1#genderrepresentation Gender Representation (2007)
-      p Some Introduction Text
       include assets/chapters/genderrepresentation.pug
-      footer.footer
-        .container
-          .pull-left
-            a.btn.btn-link(style='color:white;' href="http://webdad.eu" target="_blank") Powered by WebDaD.eu
-          .pull-right
+      footer.footer.container
+          .col-md-2.col-xs-12
+            a.btn.btn-link(style='color:white;' href="http://webdad.eu" target="_blank") Powered by WebDaD
+          .col-md-offset-6.col-md-4.col-xs-12
             a.btn.btn-link(style='color:white;' href="./impressum.html" target="_blank") Impressum
             a.btn.btn-link(style='color:white;' href="./datenschutz.html" target="_blank") Datenschutzerklärung
               

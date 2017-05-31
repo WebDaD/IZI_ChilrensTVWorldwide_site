@@ -1,9 +1,47 @@
 {
 	"genderrepresentation": [
-		{"flag":"ar", "file":"CTV_WW_01_Argentina_IZI_PJ_2008.pdf", "name":"Study in Argentina"},
-		{"flag":"de", "file":"CTV_WW_10_Germany_IZI_PJ_2008.pdf", "name":"Study in Germany"}
+		{"flag":"ar", "file":"CTV_WW_01_Argentina_IZI_PJ_2008.pdf", "name":"Argentina"},
+		{"flag":"au", "file":"CTV_WW_02_Australia_IZI_PJ_2008.pdf", "name":"Australia"},
+		{"flag":"at", "file":"CTV_WW_03_Austria_IZI_PJ_2008.pdf", "name":"Austria"},
+		{"flag":"be", "file":"CTV_WW_04_Belgium_IZI_PJ_2008.pdf", "name":"Belgium"},
+		{"flag":"br", "file":"CTV_WW_05_Brazil_IZI_PJ_2008.pdf", "name":"Brazil"},
+		{"flag":"ca", "file":"CTV_WW_06_Canada_IZI_PJ_2008.pdf", "name":"Canada"},
+		{"flag":"cn", "file":"CTV_WW_07_China_IZI_PJ_2008.pdf", "name":"China"},
+		{"flag":"cu", "file":"CTV_WW_08_Cuba_IZI_PJ_2008.pdf", "name":"Cuba"},
+		{"flag":"eg", "file":"CTV_WW_09_Egypt_IZI_PJ_2008.pdf", "name":"Egypt"},
+		{"flag":"de", "file":"CTV_WW_10_Germany_IZI_PJ_2008.pdf", "name":"Germany"},
+		{"flag":"hk", "file":"CTV_WW_11_Hong_Kong_IZI_PJ_2008.pdf", "name":"Hong Kong"},
+		{"flag":"hu", "file":"CTV_WW_12_Hungary_IZI_PJ_2008.pdf", "name":"Hungary"},
+		{"flag":"in", "file":"CTV_WW_13_India_IZI_PJ_2008.pdf", "name":"India"},
+		{"flag":"il", "file":"CTV_WW_14_Israel_IZI_PJ_2008.pdf", "name":"Israel"},
+		{"flag":"ke", "file":"CTV_WW_15_Kenya_IZI_PJ_2008.pdf", "name":"Kenya"},
+		{"flag":"my", "file":"CTV_WW_16_Malaysia_IZI_PJ_2008.pdf", "name":"Malaysia"},
+		{"flag":"nl", "file":"CTV_WW_17_Netherlands_IZI_PJ_2008.pdf", "name":"Netherlands"},
+		{"flag":"nz", "file":"CTV_WW_18_New_Zealand_IZI_PJ_2008.pdf", "name":"New Zealand"},
+		{"flag":"no", "file":"CTV_WW_19_Norway_IZI_PJ_2008.pdf", "name":"Norway"},
+		{"flag":"si", "file":"CTV_WW_20_Slovenia_IZI_PJ_2008.pdf", "name":"Slovenia"},
+		{"flag":"za", "file":"CTV_WW_21_South_Africa_IZI_PJ_2008.pdf", "name":"South Africa"},
+		{"flag":"sy", "file":"CTV_WW_22_Syria_IZI_PJ_2008.pdf", "name":"Syria"},
+		{"flag":"gb", "file":"CTV_WW_23_UK_IZI_PJ_2008.pdf", "name":"United Kingdom"},
+		{"flag":"us", "file":"CTV_WW_24_USA_IZI_PJ_2008.pdf", "name":"USA"}
 	],
 	"haveandshowemotions": [
-		{"flag":"af", "file":"Research Report_Have and Show Emotions_Afghanistan.pdf", "name":"Study in Afghanistan"}
+		{"flag":"af", "file":"Research Report_Have and Show Emotions_Afghanistan.pdf", "name":"Afghanistan"},
+		{"flag":"ar", "file":"Research Report_Have and Show Emotions_Argentina.pdf", "name":"Argentina"},
+		{"flag":"au", "file":"Research Report_Have and Show Emotions_Australia.pdf", "name":"Australia"},
+		{"flag":"ba", "file":"Research Report_Have and Show Emotions_Bosnia.pdf", "name":"Bosnia"},
+		{"flag":"ca", "file":"Research Report_Have and Show Emotions_Canada.pdf", "name":"Canada"},
+		{"flag":"cn", "file":"Research Report_Have and Show Emotions_China.pdf", "name":"China"},
+		{"flag":"cu", "file":"Research Report_Have and Show Emotions_Cuba.pdf", "name":"Cuba"},
+		{"flag":"dk", "file":"Research Report_Have and Show Emotions_Denmark.pdf", "name":"Denmark"},
+		{"flag":"de", "file":"Research Report_Have and Show Emotions_Germany.pdf", "name":"Germany"},
+		{"flag":"ir", "file":"Research Report_Have and Show Emotions_Iran.pdf", "name":"Iran"},
+		{"flag":"it", "file":"Research Report_Have and Show Emotions_Italy.pdf", "name":"Italy"},
+		{"flag":"my", "file":"Research Report_Have and Show Emotions_Malaysia.pdf", "name":"Malaysia"},
+		{"flag":"nl", "file":"Research Report_Have and Show Emotions_Netherlands.pdf", "name":"Netherlands"},
+		{"flag":"si", "file":"Research Report_Have and Show Emotions_Slovenia.pdf", "name":"Slovenia"},
+		{"flag":"es", "file":"Research Report_Have and Show Emotions_Spain.pdf", "name":"Spain"},
+		{"flag":"th", "file":"Research Report_Have and Show Emotions_Thailand.pdf", "name":"Thailand"},
+		{"flag":"ua", "file":"Research Report_Have and Show Emotions_Ukraine.pdf", "name":"Ukraine"}
 	]
 }
