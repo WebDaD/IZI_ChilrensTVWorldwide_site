@@ -1,6 +1,18 @@
 @import "palette.less";
 @import "navbar.less";
 
+/* fitting bg-colos btns */
+.btn-primary {
+  background-color: @darkPrimaryColor;
+}
+.btn-primary:hover {
+  background-color: #337ab7;
+}
+
+/* pdf-icon color */
+.fa-file-pdf-o {
+  color:red;
+}
 /* up button */
 #up {
   position: fixed;
@@ -42,7 +54,7 @@
 }
 @media (min-width: 768px) {
   #top {
-    height:200px;
+    height:130px;
   }
   #top .container {
     height:100%;
@@ -77,8 +89,10 @@
   }
 }
 /* better typhography */
-p, figcaption, .click-to-tweet-text, td {
-  font-family: 'Helvetica Neue';
+body {
+  font-family: 'Source Sans Pro';
+}
+p, figcaption, .click-to-tweet-text, td, .btn {
   font-size: 20px;
 	font-size: 1.8rem;
 	letter-spacing: -.01em;
