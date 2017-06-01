@@ -6,7 +6,7 @@
   background-color: @darkPrimaryColor;
 }
 .btn-primary:hover {
-  background-color: #337ab7;
+  background-color: #83b3dc;
 }
 
 /* pdf-icon color */
@@ -21,6 +21,15 @@
   z-index:99;
 }
 
+/* navbar mobile extensions */
+.nav>li {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .nav>li a {
+    font-size: 26px;
+  }
+}
 /* text to left in btns*/
 .btn-block {
   text-align: left;
@@ -126,6 +135,7 @@ footer {
   width: 5%;
   right: 0px;
   top: 40%;
+  z-index:9999;
 }
 .share-buttons a {
   width: 100%;
@@ -150,5 +160,5 @@ footer {
   color:white;
   padding:2px;
   font-size: 14px;
-  font-size: 4rem;
+  font-size: 3vw;
 }
