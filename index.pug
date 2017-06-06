@@ -32,11 +32,12 @@ html(lang='en')
     link(rel="icon", type="image/png", sizes="32x32", href="/images/favicon-32x32.png")
     link(rel="icon", type="image/png", sizes="16x16", href="/images/favicon-16x16.png")
     link(rel="manifest", href="/images/manifest.json")
-    link(rel="mask-icon", href="/images/safari-pinned-tab.svg", color="#6da2e5")
+    link(rel="mask-icon", href="/images/safari-pinned-tab.svg", color="#0061b4")
     link(rel="shortcut icon", href="/images/favicon.ico")
     meta(name="msapplication-config", content="/images/browserconfig.xml")
-    meta(name="theme-color", content="#6da2e5")
+    meta(name="theme-color", content="#0061b4")
     link(rel='stylesheet', href='/css/main.css')
+    link(href="https://fonts.googleapis.com/css?family=Marcellus+SC", rel="stylesheet")
     title Children's TV Worldwide
   body
     a#up.btn.btn-default.btn-lg(href="#top" title="Back to Top")
@@ -75,11 +76,13 @@ html(lang='en')
               a(href="#genderrepresentation") Gender Representation
     #top
       .container
-        .row
+        #desktop.row
           .col-sm-4
             img.img-responsive(src='/images/logo_header.png' alt="Logo for the PRIX JEUNESSE INTERNATIONAL MUNICH")
           .col-sm-8
-            .header-title Promoting Excellence in children's TV  
+            .header-title Promoting Excellence in children's TV
+        #mobile
+          img.img-responsive(src='/images/header_mobile.png' alt="Logo for the PRIX JEUNESSE INTERNATIONAL MUNICH")
     .container
       h1#about_this Children's TV Worldwide
       include assets/chapters/about_this.pug

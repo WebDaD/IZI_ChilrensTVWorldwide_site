@@ -88,6 +88,7 @@
 .header-title {
   font-size:2vw;
   color:white;
+  font-family: 'Marcellus SC', serif;
   text-transform:uppercase;
   text-align: right;
   display: table-cell;
@@ -103,6 +104,15 @@
     display:block;
   }
 }
+
+/* Header-Image */
+#desktop {display:none;}
+#mobile {display:block;}
+@media (min-width: 768px) {
+  #desktop {display:block;}
+  #mobile {display:none;}
+}
+
 /* better typhography */
 body {
   font-family: 'Source Sans Pro';
