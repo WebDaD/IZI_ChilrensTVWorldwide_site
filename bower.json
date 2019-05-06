@@ -1,5 +1,5 @@
 {
-  "name": "Site-Childrens_tv_worldwide",
+  "name": "site_childrens_tv_worldwide",
   "description": "A simple one-pager",
   "main": "index.pug",
   "keywords": [
@@ -19,7 +19,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery":"*",
-    "font-awesome":"*",
+    "font-awesome":"4.7.0",
     "flag-icon-css":"*"
   }
 }

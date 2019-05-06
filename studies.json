@@ -22,7 +22,7 @@
 		{"flag":"si", "file":"CTV_WW_20_Slovenia_IZI_PJ_2008.pdf", "name":"Slovenia"},
 		{"flag":"za", "file":"CTV_WW_21_South_Africa_IZI_PJ_2008.pdf", "name":"South Africa"},
 		{"flag":"sy", "file":"CTV_WW_22_Syria_IZI_PJ_2008.pdf", "name":"Syria"},
-		{"flag":"gb", "file":"CTV_WW_23_UK_IZI_PJ_2008.pdf", "name":"United Kingdom"},
+		{"flag":"gb", "file":"CTV_WW_23_UK_IZI_PJ_2008.pdf", "name":"UK"},
 		{"flag":"us", "file":"CTV_WW_24_USA_IZI_PJ_2008.pdf", "name":"USA"}
 	],
 	"haveandshowemotions": [
@@ -43,5 +43,17 @@
 		{"flag":"es", "file":"Research Report_Have and Show Emotions_Spain.pdf", "name":"Spain"},
 		{"flag":"th", "file":"Research Report_Have and Show Emotions_Thailand.pdf", "name":"Thailand"},
 		{"flag":"ua", "file":"Research Report_Have and Show Emotions_Ukraine.pdf", "name":"Ukraine"}
+	],
+	"genderrepresentation2": [
+		{"flag":"ar", "file":"Argentina.pdf", "name":"Argentina"},
+		{"flag":"be", "file":"Belgium.pdf", "name":"Belgium"},
+		{"flag":"br", "file":"Brazil.pdf", "name":"Brazil"},
+		{"flag":"ca", "file":"Canada.pdf", "name":"Canada"},
+		{"flag":"cu", "file":"Cuba.pdf", "name":"Cuba"},
+		{"flag":"de", "file":"Germany.pdf", "name":"Germany"},
+		{"flag":"il", "file":"Israel.pdf", "name":"Israel"},
+		{"flag":"zz", "file":"Taiwan.pdf", "name":"Taiwan"},
+		{"flag":"gb", "file":"UK.pdf", "name":"UK"},
+		{"flag":"us", "file":"USA.pdf", "name":"USA"}
 	]
 }
