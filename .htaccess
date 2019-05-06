@@ -7,6 +7,7 @@ RewriteEngine on
 # RewriteRule ^(.*)$ http://www.childrens-tv-worldwide.com/$1 [r=301,nc]
 
 # 301 Redirect Old File
+Redirect 301 genderrepresentation2.html /index.html#genderrepresentation2
 Redirect 301 haveandshowemotions.html /index.html#haveandshowemotions
 Redirect 301 genderrepresentation.html /index.html#genderrepresentation
 Redirect 301 about_this.html /index.html#about_this
