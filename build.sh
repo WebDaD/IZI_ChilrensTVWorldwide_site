@@ -34,6 +34,9 @@ cp -a assets/images/. public/images/
 echo "Copy PDFs"
 cp -a assets/pdfs/. public/pdfs/
 
+echo "Copy Fonts"
+cp -a assets/fonts/. public/fonts/
+
 echo "Copy Flags"
 cp -a bower_components/flag-icon-css/flags/. public/flags/
 
